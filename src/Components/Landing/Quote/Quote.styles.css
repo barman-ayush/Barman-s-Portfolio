@@ -1,0 +1,32 @@
+.quote::before{
+    top: -32px;
+    left: 16px;
+    content: '"';
+    position: absolute;
+    color: var(--gray);
+    font-size: 64px;
+    font-weight: 700;
+    background-image: linear-gradient(var(--background), var(--background));
+    background-size: 100% 40%;
+    background-repeat: no-repeat;
+}
+.quote::after{
+    bottom: -64px;
+    right: 16px;
+    content: '"';
+    position: absolute;
+    color: var(--gray);
+    font-size: 64px;
+    font-weight: 700;
+    background-image: linear-gradient(var(--background), var(--background));
+    background-size: 100% 40%;
+    background-repeat: no-repeat;
+}
+
+.quote-data{
+    padding: 32px;
+    font-size: 24px;
+    font-weight: 500;
+    /* background-color:; */
+
+}

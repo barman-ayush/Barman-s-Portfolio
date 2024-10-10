@@ -1,0 +1,18 @@
+@media (min-width: 700px) {
+  .left-cont {
+    width: 53%;
+  }
+  .right-cont {
+    width: 30%;
+  }
+  .about-image {
+    top: -30% !important;
+  }
+}
+.left-cont {
+  margin: 5%;
+}
+
+.about-image {
+  top: -15%;
+}

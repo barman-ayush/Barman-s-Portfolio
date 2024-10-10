@@ -1,13 +1,15 @@
+// Section
+
 import { Fragment } from "react";
 import "./Section.styles.css"
 
-const Section = ({component : Component , heading , view , link , Flexdirection}) => {
+const Section = ({component : Component , heading , view , link}) => {
   return (
     <Fragment>
-      <section className={`flex flex-${Flexdirection} flex-wrap justify-between items-center`} style={{gap : "32px"}}>
+      <section className="flex flex-col ">
         <div
           className="relative flex flex-row px-2 justify-between"
-          style={{marginBottom : "5%" }}
+          style={{ margin: "10%" , marginBottom : "5%" }}
         >
           <h2 className="h2 text-white ml-4">{heading}</h2>
           {view ? (

@@ -1,5 +1,14 @@
+.hero-cont{
+    gap: 32px;
+
+}
+.hero-written{
+    flex:  1 1 0;
+}
+
+
+
 .hero-title{
-    /* max-width: 20%; */
     font-size: 32px;
     font-weight: 600;
 }

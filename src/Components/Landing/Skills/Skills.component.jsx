@@ -1,32 +1,52 @@
 import { Fragment } from "react";
-import rect1 from "../../../assets/skills/rect-1.svg"
-import Reactangle23 from "../../../assets/skills/Rectangle 23.svg"
-import Reactangle24 from "../../../assets/skills/Rectangle 24.svg"
-import Frame1 from "../../../assets/skills/Frame 27.svg"
+import rect1 from "../../../assets/skills/rect-1.svg";
+import Frame1 from "../../../assets/skills/Frame 27.svg";
+import SkillCard from "../../Cards/SkillCards.component";
+import "./Skill.styles.css"
 
 const Skills = () => {
-    return(
-        <Fragment>
-            <div className="flex flex-row flex-wrap justify-center">
-                <div className="left relative" style={{width : "100%"}} >
-                    <div className="rect1 absolute">
-                        <img src={rect1} alt="" />
+  return (
+    <Fragment>
+      <div
+        className="flex  flex-wrap justify-center"
+        style={{ marginBottom: "10%" }}
+      >
+        <div className="left-container" 
+        style={{margin : "5%"}}
+        >
+          {/* <div className="rect1 absolute right-0">
+                        <img src={rect1} />
                     </div>
-                    <div className="rectangle23 absolute">
-                        <img src={Reactangle23} alt="" />
+                    <div className="Frame absolute top-0" style={{left : "-20%"}}>
+                        <img src={Frame1} />
                     </div>
-                    <div className="rectangle24 absolute">
-                        <img src={Reactangle24} alt="" />
-                    </div>
-                    <div className="Frame absolute">
-                        <img src={Frame1} alt="" />
-                    </div>
-
-                </div>
-                <div className="right" >right</div>
-            </div>
-        </Fragment>
-    )
-}
+                    <div className="Frame absolute" style={{left : "30%" , top : "100px"}}>
+                        <img src={Frame1} />
+                    </div> */}
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+            provident deserunt, nesciunt iste repellendus totam doloremque
+            iusto, sequi quod perferendis eaque saepe vero unde. A voluptates
+            tempore sed totam pariatur qui architecto nam? Aut.
+          </p>
+        </div>
+        <div
+          className="right-container flex justify-center items-center flex-wrap"
+        >
+          <SkillCard
+            heading={"Languages"}
+            items={["JavaScript", "C++", "Python"]}
+          />
+          <SkillCard heading={"Other"} items={["HTML", "CSS", "Pug", "EJS"]} />
+          <SkillCard heading={"Databases"} items={["MongoDB", "PostgreSQL"]} />
+          <SkillCard
+            heading={"Frameworks"}
+            items={["React", "Express", "Flask"]}
+          />
+        </div>
+      </div>
+    </Fragment>
+  );
+};
 
 export default Skills;

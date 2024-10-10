@@ -1,0 +1,11 @@
+@media (min-width : 700px){
+    .left-container{
+        width: 40%;
+    }
+    
+    .right-container{
+        width: 50%;
+    
+    }
+
+}

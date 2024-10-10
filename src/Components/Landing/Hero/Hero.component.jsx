@@ -10,12 +10,10 @@ const Hero = () => {
   return (
     <Fragment>
       <section
-        className="flex flex-row justify-center"
-        style={{ marginTop: "3%" }}
+        className="hero-cont flex flex-row justify-between items-center flex-wrap" style={{gap : "32px"}}
       >
         <div
-          className="flex flex-col text-white"
-          style={{ maxWidth: "35%", marginTop: "5%" }}
+          className="hero-written flex flex-col text-white"
         >
           <div className="hero-title py-3">
             Ayush is a <span className="custom-text px-2">Full stack Web</span>
@@ -42,7 +40,7 @@ const Hero = () => {
           />
           <img src={Maze} className="absolute top-4 left-4 z-0" />
           <div
-            className="flex flex-row jsutify-center items-center open-for-work text-white py-3 border-white border-solid border-2 relative z-40 text-center"
+            className="flex flex-row jsutify-center items-center open-for-work text-white py-3 border-white border-solid border-2 relative z-30 text-center"
             style={{ width: "60%", top: "-2px", margin: "0 25%" }}
           >
             <img className="px-2" src={Rect} alt="" />

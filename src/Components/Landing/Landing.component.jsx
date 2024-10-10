@@ -4,18 +4,28 @@ import Quote from "./Quote/Quote.component";
 import ProjectSection from "./Project/Project.component";
 import Section from "./SectionTemplate/Section.component";
 import Skills from "./Skills/Skills.component";
+import about from "./About/About.component";
+import contact from "./contact/contact.component";
 
 const LandingPage = () => {
-    return(
-        <Fragment>
-            <Hero/>
-            <Quote/>
-            <Section component={ProjectSection} link={"/project"} view={true} heading={"projects"} />
-            <Section component={Skills} view={false} heading={"skills"} />
-            <Section component={ProjectSection} view={false} heading={"abouts"} />
-            <Section component={ProjectSection} view={false} heading={"contacts"} />
-        </Fragment>
-    )
-}
+  return (
+    <Fragment>
+      <div className="flex flex-col items-center flex-1" style={{margin : "0% auto" ,maxWidth : "1024px" , marginTop : "112px" , gap : "112px"}}>
+        <Hero />
+        <Quote />
+        <Section
+          component={ProjectSection}
+          link={"/project"}
+          view={true}
+          heading={"projects"}
+          Flexdirection={"col"}
+        />
+        <Section component={Skills} view={false} heading={"skills"} Flexdirection={"row"} />
+        <Section component={about} view={false} heading={"about"} Flexdirection={"row"} />
+        <Section component={contact} view={false} heading={"contacts"} Flexdirection={"row"} />
+      </div>
+    </Fragment>
+  );
+};
 
 export default LandingPage;
