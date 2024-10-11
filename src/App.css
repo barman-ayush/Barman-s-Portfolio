@@ -1,6 +1,7 @@
 body {
   background-color: #282c33;
   font-family: 'Fira Code', monospace; 
+  height: max-content !important;
 }
 .App {
   text-align: center;

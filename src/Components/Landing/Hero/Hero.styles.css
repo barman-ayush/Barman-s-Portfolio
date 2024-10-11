@@ -1,18 +1,22 @@
 .hero-cont{
     gap: 32px;
-
 }
 .hero-written{
     flex:  1 1 0;
+    margin-left: 2%;
 }
-
-
-
 .hero-title{
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 600;
 }
-
 .custom-text{
     color: #C778DD;
+}
+
+@media (min-width : 700px){
+    .hero-title{
+        font-size: 32px;
+    }
+    
+    
 }

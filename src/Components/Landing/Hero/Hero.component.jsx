@@ -41,7 +41,7 @@ const Hero = () => {
           <img src={Maze} className="absolute top-4 left-4 z-0" />
           <div
             className="flex flex-row jsutify-center items-center open-for-work text-white py-3 border-white border-solid border-2 relative z-30 text-center"
-            style={{ width: "60%", top: "-2px", margin: "0 25%" }}
+            style={{ width: "60%", top: "-2px", margin: "0 20%" }}
           >
             <img className="px-2" src={Rect} alt="" />
             Open for new oppurtunity

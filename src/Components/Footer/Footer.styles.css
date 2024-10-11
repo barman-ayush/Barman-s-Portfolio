@@ -1,0 +1,17 @@
+.footer-container{
+    margin : 2% 15%;
+}
+
+@media (max-width : 700px){
+    .footer-container{
+        margin : 2% 5%;
+    }
+    .lower-footer{
+        margin-top: 25% !important;
+    }
+    
+}
+
+.email-footer:hover{
+    cursor: pointer;
+}

@@ -5,7 +5,7 @@ const FixedFooter = () => {
   return (
     <Fragment>
       <footer
-        class="footer py-2 mt-auto"
+        className="footer py-2 mt-auto"
         style={{
           position: "fixed",
           bottom: "0",
@@ -15,7 +15,7 @@ const FixedFooter = () => {
           backgroundColor: "#1b222f",
         }}
       >
-        <div class="container flex justify-center text-white">
+        <div className="container flex justify-center text-white">
           &copy; Made with ❤️ and
           <img style={{width : "20px" , height :"20px"}} className="mx-2 text-white" src={Cigar} />
           by Barman

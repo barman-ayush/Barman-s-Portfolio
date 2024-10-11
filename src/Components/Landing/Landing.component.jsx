@@ -6,6 +6,7 @@ import Section from "./SectionTemplate/Section.component";
 import Skills from "./Skills/Skills.component";
 import about from "./About/About.component";
 import contact from "./contact/contact.component";
+import Footer from "../Footer/Footer.component";
 
 const LandingPage = () => {
   return (
@@ -24,6 +25,7 @@ const LandingPage = () => {
         <Section component={about} view={false} heading={"about"} Flexdirection={"row"} />
         <Section component={contact} view={false} heading={"contacts"} Flexdirection={"row"} />
       </div>
+        <Footer/>
     </Fragment>
   );
 };
