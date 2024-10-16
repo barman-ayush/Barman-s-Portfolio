@@ -1,9 +1,9 @@
 import { Fragment } from "react";
 import BTN from "../../Button/Button.component";
-import Ayush from "../../../assets/about/about3.png"
-import "./About.styles.css"
+import Ayush from "../../../assets/about/about3.png";
+import "./About.styles.css";
 
-const about = () => {
+const About = ({ isBtn = false }) => {
   return (
     <Fragment>
       <div className="flex text-white flex-wrap">
@@ -17,14 +17,20 @@ const about = () => {
             online. I always strive to learn about the newest technologies and
             frameworks.
           </p>
-          <BTN text={"View All ~>"} />
+          {isBtn ? <BTN text={"View All ~>"} /> : <></>}
         </div>
         <div className="right-cont">
-            <img src={Ayush} height={507} width={339} className="relative about-image" style={{ borderBottom : "2px solid #C778DD"}} />
+          <img
+            src={Ayush}
+            height={507}
+            width={339}
+            className="relative about-image"
+            style={{ borderBottom: "2px solid #C778DD" }}
+          />
         </div>
       </div>
     </Fragment>
   );
 };
 
-export default about;
+export default About;

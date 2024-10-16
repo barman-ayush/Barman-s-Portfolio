@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import "./Section.styles.css"
 
-const Section = ({component : Component , heading , view , link , Flexdirection}) => {
+const Section = ({component : Component , heading , view , link , Flexdirection, isBtn}) => {
   return (
     <Fragment>
       <section className={`flex flex-${Flexdirection} flex-wrap justify-between items-center`} style={{gap : "32px"}}>
@@ -22,7 +22,7 @@ const Section = ({component : Component , heading , view , link , Flexdirection}
             <></>
           )}
         </div>
-        <Component/>
+        <Component isBtn={isBtn}/>
       </section>
     </Fragment>
   );

@@ -1,0 +1,9 @@
+.heading-before::before{
+    content: "/";
+    color: hsl(287 60% 65%);
+}
+
+.heading-before{
+    font-size: 32px;
+    font-weight: 550;
+}

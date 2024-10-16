@@ -22,7 +22,7 @@ const LandingPage = () => {
           Flexdirection={"col"}
         />
         <Section component={Skills} view={false} heading={"skills"} Flexdirection={"row"} />
-        <Section component={about} view={false} heading={"about"} Flexdirection={"row"} />
+        <Section component={about}  view={false} isBtn={true} heading={"about"} Flexdirection={"row"} />
         <Section component={contact} view={false} heading={"contacts"} Flexdirection={"row"} />
       </div>
         <Footer/>

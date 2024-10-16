@@ -1,9 +1,9 @@
 import { Fragment } from "react";
 
-const SkillCard = ({ heading, items }) => {
+const SkillCard = ({ heading, items , divWidth = "40%" , divHeight = "" }) => {
   return (
     <Fragment>
-      <div className="skill-card text-white mx-2 my-2 py-2" style={{border : "1px solid white" , width : "40%"}}  >
+      <div className="skill-card text-white mx-2 my-2 py-2" style={{border : "1px solid white" ,width : divWidth ,minHeight : divHeight}}  >
         <div className="skill-heading px-2" style={{borderBottom : "1px solid white" , paddingBottom : "3px"}} >{heading}</div>
         <ul className="skill-list flex justify-start flex-wrap" style={{gap : "8px" , color : "gray"}}>
           {items.map((e, index) => {

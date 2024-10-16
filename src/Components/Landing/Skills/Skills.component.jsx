@@ -1,8 +1,6 @@
 import { Fragment } from "react";
-import rect1 from "../../../assets/skills/rect-1.svg";
-import Frame1 from "../../../assets/skills/Frame 27.svg";
 import SkillCard from "../../Cards/SkillCards.component";
-import "./Skill.styles.css"
+import "./Skill.styles.css";
 
 const Skills = () => {
   return (
@@ -11,9 +9,7 @@ const Skills = () => {
         className="flex  flex-wrap justify-center"
         style={{ marginBottom: "10%" }}
       >
-        <div className="left-container" 
-        style={{margin : "5%"}}
-        >
+        <div className="left-container" style={{ margin: "5%" }}>
           {/* <div className="rect1 absolute right-0">
                         <img src={rect1} />
                     </div>
@@ -30,19 +26,17 @@ const Skills = () => {
             tempore sed totam pariatur qui architecto nam? Aut.
           </p>
         </div>
-        <div
-          className="right-container flex justify-center items-center flex-wrap"
-        >
+        <div className="right-container flex justify-center items-center flex-wrap">
           <SkillCard
             heading={"Languages"}
             items={["JavaScript", "C++", "Python"]}
           />
-          <SkillCard heading={"Other"} items={["HTML", "CSS", "Pug", "EJS"]} />
           <SkillCard heading={"Databases"} items={["MongoDB", "PostgreSQL"]} />
           <SkillCard
             heading={"Frameworks"}
             items={["React", "Express", "Flask"]}
           />
+          <SkillCard heading={"Other"} items={["HTML", "CSS", "Pug", "EJS" , "Bootstrap" , "TailwindCSS" , "FramerMotion"]} />
         </div>
       </div>
     </Fragment>
