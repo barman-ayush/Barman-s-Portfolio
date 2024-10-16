@@ -16,7 +16,7 @@ const LandingPage = () => {
         <Quote />
         <Section
           component={ProjectSection}
-          link={"/project"}
+          link={"/works"}
           view={true}
           heading={"projects"}
           Flexdirection={"col"}

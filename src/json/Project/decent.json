@@ -1,0 +1,26 @@
+[
+    {
+        "TechStack" : ["EJS" , "Node" , "Express" , "MongoDB"] ,
+        "heading" : "getGeeks",
+        "subheading" : "A collaborative website for competitive programmers",
+        "img" : "getGeeks",
+        "liveLink" : "https://getgeeks.onrender.com/find",
+        "Github" : "https://github.com/barman-ayush/GetGeeks" 
+    },
+    {
+        "TechStack" : ["React" , "Node" , "Express" , "MongoDB" , "Flask"] ,
+        "heading" : "CerebroScan",
+        "subheading" : "An AI aided website to detect brain tumour",
+        "img" : "cerebroScan",
+        "liveLink" : "https://cerebroscan.onrender.com/",
+        "Github" : "https://github.com/hombrecito2580/cerebroscan-hackoverflow07"
+    },
+    {
+        "TechStack" : ["React" , "Node" , "Express" , "MongoDB"] ,
+        "heading" : "Concetto'24",
+        "subheading" : "The official website of IIT ISM's biggest Techfest Concetto'24",
+        "img" : "concetto",
+        "liveLink" : "https://www.concetto.in/",
+        "Github" : "https://github.com/Concetto-24"
+    }
+]
