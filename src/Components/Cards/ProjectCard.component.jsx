@@ -1,8 +1,8 @@
 import { Fragment } from "react";
 import BTN from "../Button/Button.component";
 
-const ProjectCard = ({ TechStack, heading, subheading, image }) => {
-  console.log(image)
+const ProjectCard = ({ TechStack, heading, subheading, image , LiveLink , Github }) => {
+  console.log(LiveLink)
   return (
     <Fragment>
       <div
@@ -36,8 +36,8 @@ const ProjectCard = ({ TechStack, heading, subheading, image }) => {
           </p>
         </div>
         <div className="btn-cont mx-3 flex flex-wrap flex-row">
-          <BTN link={""} text={"Live =>"} />
-          <BTN link={""} text={"GitHub =>"} />
+          <BTN link={LiveLink} text={"Live =>"} />
+          <BTN link={Github} text={"GitHub =>"} />
         </div>
       </div>
     </Fragment>

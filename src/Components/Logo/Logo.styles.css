@@ -2,3 +2,9 @@
     cursor: pointer;
 
 }
+
+@media(max-width : 700px){
+    .logo-component{
+        margin-left: 20px;
+    }
+}

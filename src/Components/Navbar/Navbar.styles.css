@@ -1,5 +1,17 @@
+.mobile-hamburger-menu{
+  margin-right: 20px;
+}
+
 @media (max-width: 700px) {
   .tab-links {
+    display: none;
+  }
+  .navbar-container{
+    justify-content: space-between !important;
+  }
+}
+@media (min-width: 700px) {
+  .mobile-hamburger-menu {
     display: none;
   }
 }

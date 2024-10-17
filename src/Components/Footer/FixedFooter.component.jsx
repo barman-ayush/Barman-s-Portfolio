@@ -10,7 +10,7 @@ const FixedFooter = () => {
           position: "fixed",
           bottom: "0",
           height: "4vh",
-          zIndex: "5",
+          zIndex: "1000",
           width: "100vw",
           backgroundColor: "#1b222f",
         }}
