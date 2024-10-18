@@ -1,9 +1,16 @@
-.heading-before::before{
-    content: "/";
-    color: hsl(287 60% 65%);
-}
-
-.heading-before{
-    font-size: 32px;
-    font-weight: 550;
-}
+.heading-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .slash {
+    font-size: 32px; /* Match heading font size */
+    color: hsl(287, 60%, 65%);
+    padding-right: 10px;
+  }
+  
+  .heading-before {
+    font-size: 32px; /* Preserved */
+    font-weight: 550; /* Preserved */
+  }
+  
