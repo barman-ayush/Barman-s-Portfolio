@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Barman-s-Portfolio/static/css/main.e45b3275.css",
-    "main.js": "/Barman-s-Portfolio/static/js/main.e61b53d5.js",
+    "main.js": "/Barman-s-Portfolio/static/js/main.ac6c6cb7.js",
     "static/js/453.844b12ec.chunk.js": "/Barman-s-Portfolio/static/js/453.844b12ec.chunk.js",
     "static/media/concetto.png": "/Barman-s-Portfolio/static/media/concetto.a94b4400562d37f0227d.png",
     "static/media/getGeeks.png": "/Barman-s-Portfolio/static/media/getGeeks.e7c6a101d0ca08240281.png",
@@ -25,11 +25,11 @@
     "static/media/Rect.svg": "/Barman-s-Portfolio/static/media/Rect.8af3792ba1f4764dd1b0cfacb75f20f6.svg",
     "static/media/Rectangle-26.svg": "/Barman-s-Portfolio/static/media/Rectangle-26.a105acf0125f3a20e6ab7082932daced.svg",
     "main.e45b3275.css.map": "/Barman-s-Portfolio/static/css/main.e45b3275.css.map",
-    "main.e61b53d5.js.map": "/Barman-s-Portfolio/static/js/main.e61b53d5.js.map",
+    "main.ac6c6cb7.js.map": "/Barman-s-Portfolio/static/js/main.ac6c6cb7.js.map",
     "453.844b12ec.chunk.js.map": "/Barman-s-Portfolio/static/js/453.844b12ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e45b3275.css",
-    "static/js/main.e61b53d5.js"
+    "static/js/main.ac6c6cb7.js"
   ]
 }
