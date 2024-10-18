@@ -1,17 +1,10 @@
-import { Fragment, useEffect, useState } from "react";
+import { Fragment } from "react";
 import { motion } from "framer-motion"; // Import Framer Motion
 import Line from "../../assets/Navbar/SideLine.svg";
 import GitHub from "../../assets/Navbar/Github.svg";
 import "./SideLine.styles.css";
 
 const SideLine = () => {
-  const [isMounted, setIsMounted] = useState(false);
-
-  useEffect(() => {
-    // Set isMounted to true when the component mounts
-    setIsMounted(true);
-  }, []);
-
   // Animation variants
   const lineAnimation = {
     initial: { height: "0px" },
@@ -31,7 +24,7 @@ const SideLine = () => {
         <motion.img
           src={Line}
           initial="initial"
-          animate={isMounted ? "animate" : "initial"} // Animate only if mounted
+          animate="animate"
           exit="exit"
           variants={lineAnimation}
           transition={{ duration: 1 }} // Duration for line growth
@@ -39,21 +32,23 @@ const SideLine = () => {
 
         {/* GitHub icons with motion */}
         <motion.img
-          src={GitHub}
-          style={{ height: "35px" }}
-          initial="initial"
-          animate={isMounted ? "animate" : "initial"} // Animate only if mounted
-          variants={iconAnimation}
-          transition={{ duration: 0.5, delay: 1 }} // Delay for icon appearance
+        className="cursor-pointer"
+        src={GitHub}
+        style={{ height: "35px" }}
+        initial="initial"
+        animate="animate"
+        variants={iconAnimation}
+        transition={{ duration: 0.5, delay: 1 }} // Delay for icon appearance
         />
         <motion.img
+          className="cursor-pointer"
           src={GitHub}
           style={{ height: "35px" }}
           initial="initial"
-          animate={isMounted ? "animate" : "initial"} // Animate only if mounted
+          animate="animate"
           variants={iconAnimation}
           transition={{ duration: 0.5, delay: 1.2 }} // Staggering delay
-        />
+          />
       </section>
     </Fragment>
   );

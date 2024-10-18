@@ -5,6 +5,7 @@ import "./aboutPage.styles.css";
 import Footer from "../Footer/Footer.component";
 import Section from "../Landing/SectionTemplate/Section.component";
 import Skill from "./Skills/Skills.component";
+import Acheivement from "./Acheivements/Acheivements.component";
 
 const AboutPage = () => {
   return (
