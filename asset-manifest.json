@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Barman-s-Portfolio/static/css/main.e45b3275.css",
+    "main.js": "/Barman-s-Portfolio/static/js/main.647e1d94.js",
+    "static/js/453.844b12ec.chunk.js": "/Barman-s-Portfolio/static/js/453.844b12ec.chunk.js",
+    "static/media/concetto.png": "/Barman-s-Portfolio/static/media/concetto.a94b4400562d37f0227d.png",
+    "static/media/getGeeks.png": "/Barman-s-Portfolio/static/media/getGeeks.e7c6a101d0ca08240281.png",
+    "static/media/my-image.svg": "/Barman-s-Portfolio/static/media/my-image.ca3e2a6ada3583c1de45379d27ac15cd.svg",
+    "static/media/about3.png": "/Barman-s-Portfolio/static/media/about3.0f323a0356718fb0c141.png",
+    "static/media/cerebroScan.jpeg": "/Barman-s-Portfolio/static/media/cerebroScan.991ceb5e0759988399bd.jpeg",
+    "static/media/Discord.svg": "/Barman-s-Portfolio/static/media/Discord.6fb3cf45bb09d040c30156a2ddaf355b.svg",
+    "static/media/logo.svg": "/Barman-s-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Frame 27.svg": "/Barman-s-Portfolio/static/media/Frame 27.23e65ec9b162e7cab0a189018f8075a4.svg",
+    "static/media/rect-1.svg": "/Barman-s-Portfolio/static/media/rect-1.fd1160337a7e1f1aa0449276e649c498.svg",
+    "static/media/Maze.svg": "/Barman-s-Portfolio/static/media/Maze.c3404a223f6c35678862f9529e8e67ce.svg",
+    "static/media/Github.svg": "/Barman-s-Portfolio/static/media/Github.8adab485ea6dc5380696d70cdcd5ec4f.svg",
+    "static/media/Dots.svg": "/Barman-s-Portfolio/static/media/Dots.6e33fd923b2a31d9872d96e676985fdd.svg",
+    "index.html": "/Barman-s-Portfolio/index.html",
+    "static/media/Cigar.svg": "/Barman-s-Portfolio/static/media/Cigar.b3a3c091f0f91e07baec54ffb47cfb09.svg",
+    "static/media/TopComma.svg": "/Barman-s-Portfolio/static/media/TopComma.a76fc53a57df8a2f038f4e756fae26fa.svg",
+    "static/media/Email.svg": "/Barman-s-Portfolio/static/media/Email.3bd9bfdf21e1e81839055a78f4f586de.svg",
+    "static/media/Logo.svg": "/Barman-s-Portfolio/static/media/Logo.c1840f06295c0a2c8a5fcf0eec2b7eb5.svg",
+    "static/media/SideLine.svg": "/Barman-s-Portfolio/static/media/SideLine.73e1f5bc4d331f4b59d106d130e65520.svg",
+    "static/media/Hamburger.svg": "/Barman-s-Portfolio/static/media/Hamburger.8cd319a00f8e003ee867e7a7018aa10f.svg",
+    "static/media/Rect.svg": "/Barman-s-Portfolio/static/media/Rect.8af3792ba1f4764dd1b0cfacb75f20f6.svg",
+    "static/media/Rectangle-26.svg": "/Barman-s-Portfolio/static/media/Rectangle-26.a105acf0125f3a20e6ab7082932daced.svg",
+    "main.e45b3275.css.map": "/Barman-s-Portfolio/static/css/main.e45b3275.css.map",
+    "main.647e1d94.js.map": "/Barman-s-Portfolio/static/js/main.647e1d94.js.map",
+    "453.844b12ec.chunk.js.map": "/Barman-s-Portfolio/static/js/453.844b12ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e45b3275.css",
+    "static/js/main.647e1d94.js"
+  ]
+}
