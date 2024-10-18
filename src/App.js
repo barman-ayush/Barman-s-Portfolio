@@ -14,9 +14,9 @@ function App() {
       <NavbarComponent />
       <Routes>
         <Route path="/Barman-s-Portfolio" element={<LandingPage/>} />
-        <Route path="/works" element={<Works/>} />
-        <Route path="/contact" element={<Contact/>} />
-        <Route path="/about" element={<AboutPage/>} />
+        <Route path="Barman-s-Portfolio/works" element={<Works/>} />
+        <Route path="Barman-s-Portfolio/contact" element={<Contact/>} />
+        <Route path="Barman-s-Portfolio/about" element={<AboutPage/>} />
       </Routes>
       <FixedFooter/>
     </div>

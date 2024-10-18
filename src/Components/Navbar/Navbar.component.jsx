@@ -34,37 +34,37 @@ const Navbar = () => {
           <ul className="flex flex-row">
             <li
               className={`px-4 text-white opacity-70   ${
-                isActive("/") ? "opacity-100" : ""
+                isActive("/Barman-s-Portfolio/") ? "opacity-100" : ""
               }  hover:opacity-100  transition-opacity duration-200 active`}
             >
-              <a href="/">
+              <a href="/Barman-s-Portfolio/">
                 <span style={{ color: "#c778dd" }}>#</span>home
               </a>
             </li>
             <li
               className={`px-4 text-white ${
-                isActive("/works") ? "opacity-100" : ""
+                isActive("/Barman-s-Portfolio/works") ? "opacity-100" : ""
               } opacity-70 hover:opacity-100  transition-opacity duration-200`}
             >
-              <a href="/works">
+              <a href="/Barman-s-Portfolio/works">
                 <span style={{ color: "#c778dd" }}>#</span>works
               </a>
             </li>
             <li
               className={`px-4 text-white ${
-                isActive("/about") ? "opacity-100" : ""
+                isActive("/Barman-s-Portfolio/about") ? "opacity-100" : ""
               } opacity-70 hover:opacity-100  transition-opacity duration-200`}
             >
-              <a href="/about">
+              <a href="/Barman-s-Portfolio/about">
                 <span style={{ color: "#c778dd" }}>#</span>about-me
               </a>
             </li>
             <li
               className={`px-4 text-white ${
-                isActive("/contact") ? "opacity-100" : ""
+                isActive("/Barman-s-Portfolio/contact") ? "opacity-100" : ""
               } opacity-70 hover:opacity-100  transition-opacity duration-200`}
             >
-              <a href="/contact">
+              <a href="/Barman-s-Portfolio/contact">
                 <span style={{ color: "#c778dd" }}>#</span>contact
               </a>
             </li>
