@@ -1,9 +1,9 @@
 import { Fragment } from "react";
-import PageTemplate from "../PageTemplate/PageTemplate.component.jsx";
-import About from "../Landing/About/About.component.jsx";
+import PageTemplate from "../PageTemplate/PageTemplate.jsx";
+import About from "../Landing/About/About.jsx";
 import "./aboutPage.styles.css";
-import Footer from "../Footer/Footer.component.jsx";
-import Section from "../Landing/SectionTemplate/Section.component.jsx";
+import Footer from "../Footer/Footer.jsx";
+import Section from "../Landing/SectionTemplate/Section.jsx";
 import Skill from "./Skills/Skills.component.jsx";
 
 const AboutPage = () => {

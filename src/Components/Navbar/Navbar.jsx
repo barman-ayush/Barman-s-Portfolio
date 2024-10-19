@@ -1,11 +1,11 @@
 import { Fragment, useEffect, useState } from "react";
 import Logo from "../../assets/Navbar/Logo.svg";
-import SideLine from "../SideLine/SideLine.component";
+import SideLine from "../SideLine/SideLine.jsx";
 import "./Navbar.styles.css";
 import { useLocation } from "react-router-dom";
-import MyLogo from "../Logo/Logo.component";
+import MyLogo from "../Logo/Logo.jsx";
 import Hamburger from "../../assets/Navbar/Hamburger.svg";
-import MobileNavbar from "./MobileNavbar/MobileNavbar.component";
+import MobileNavbar from "./MobileNavbar/MobileNavbar.jsx";
 import cross from "../../assets/Navbar/cross.svg"
 
 const Navbar = () => {

@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import SkillCard from "../../Cards/SkillCards.component.jsx";
+import SkillCard from "../../Cards/SkillCards.jsx";
 import "./Skill.styles.css";
 import rect1 from "../../../assets/skills/rect-1.svg";
 import Frame1 from "../../../assets/skills/Frame 27.svg";

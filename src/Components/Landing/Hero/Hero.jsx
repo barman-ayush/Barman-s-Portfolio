@@ -3,7 +3,7 @@ import "./Hero.styles.css";
 import Ayush from "../../../assets/Hero/my-image.svg";
 import dots from "../../../assets/Hero/Dots.svg";
 import Maze from "../../../assets/Hero/Maze.svg";
-import BTN from "../../Button/Button.component.jsx";
+import BTN from "../../Button/Button.jsx";
 import Rect from "../../../assets/Hero/Rect.svg";
 import FadeIn from "../../../Animation/fadein.component.jsx";
 

@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import BTN from "../../Button/Button.component.jsx";
+import BTN from "../../Button/Button.jsx";
 import Ayush from "../../../assets/about/about3.png";
 import "./About.styles.css";
 

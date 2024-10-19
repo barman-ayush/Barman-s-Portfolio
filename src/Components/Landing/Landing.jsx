@@ -1,12 +1,12 @@
 import { Fragment } from "react";
-import Hero from "./Hero/Hero.component";
-import Quote from "./Quote/Quote.component";
-import ProjectSection from "./Project/Project.component";
-import Section from "./SectionTemplate/Section.component";
-import Skills from "./Skills/Skills.component";
-import about from "./About/About.component";
-import contact from "./contact/contact.component";
-import Footer from "../Footer/Footer.component";
+import Hero from "./Hero/Hero.jsx";
+import Quote from "./Quote/Quote.jsx";
+import ProjectSection from "./Project/Project.jsx";
+import Section from "./SectionTemplate/Section.jsx";
+import Skills from "./Skills/Skills.jsx";
+import about from "./About/About.jsx";
+import contact from "./contact/contact.jsx";
+import Footer from "../Footer/Footer.jsx";
 import "./Landing.styles.css"
 
 const LandingPage = () => {

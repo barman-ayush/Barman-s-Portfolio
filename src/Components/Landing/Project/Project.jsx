@@ -4,7 +4,7 @@ import getGeeks from "../../../assets/Project/getGeeks.png"
 import cerebroScan from "../../../assets/Project/cerebroScan.jpeg"
 import concetto from "../../../assets/Project/concetto.png"
 import JsonData from "../../../json/Project/decent.json"
-import ProjectCard from "../../Cards/ProjectCard.component";
+import ProjectCard from "../../Cards/ProjectCard.jsx";
 
 const imageMap = {
   getGeeks , cerebroScan , concetto

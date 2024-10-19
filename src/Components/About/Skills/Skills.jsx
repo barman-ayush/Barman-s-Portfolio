@@ -1,5 +1,5 @@
 import { Fragment, useEffect , useState } from "react";
-import SkillCard from "../../Cards/SkillCards.component.jsx";
+import SkillCard from "../../Cards/SkillCards.jsx";
 
 const Skills = () => {
   return (

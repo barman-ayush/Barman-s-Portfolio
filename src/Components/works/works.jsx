@@ -1,9 +1,9 @@
 import { Fragment } from "react";
-import PageTemplate from "../PageTemplate/PageTemplate.component.jsx";
-import Footer from "../Footer/Footer.component.jsx";
-import Section from "../Landing/SectionTemplate/Section.component.jsx";
-import Decent from "./Decent/decent.component.jsx";
-import Small from "./small/small.component.jsx";
+import PageTemplate from "../PageTemplate/PageTemplate.jsx";
+import Footer from "../Footer/Footer.jsx";
+import Section from "../Landing/SectionTemplate/Section.jsx";
+import Decent from "./Decent/decent.jsx";
+import Small from "./small/small.jsx";
 
 const Works = () => {
   const componentArray = [];
