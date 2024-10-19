@@ -7,11 +7,12 @@ import Skills from "./Skills/Skills.component";
 import about from "./About/About.component";
 import contact from "./contact/contact.component";
 import Footer from "../Footer/Footer.component";
+import "./Landing.styles.css"
 
 const LandingPage = () => {
   return (
     <Fragment>
-      <div className="flex flex-col items-center flex-1" style={{margin : "0% auto" ,maxWidth : "1024px" , marginTop : "112px" , gap : "112px"}}>
+      <div className="top-box-hero flex flex-col items-center flex-1" style={{margin : "0% auto" ,maxWidth : "1024px" , marginTop : "112px" , gap : "112px"}}>
         <Hero />
         <Quote />
         <Section

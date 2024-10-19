@@ -1,5 +1,7 @@
 import { Fragment } from "react";
 import Github from "../../../assets/Navbar/Github.svg";
+import Linkedin from "../../../assets/Navbar/linkedin.svg";
+import Discord from "../../../assets/about/Discord.svg";
 
 const MobileNavbar = ({ currentTabChecker, setIsOpen, isOpen }) => {
   const modalToggle = () => setIsOpen(!isOpen);
@@ -29,7 +31,9 @@ const MobileNavbar = ({ currentTabChecker, setIsOpen, isOpen }) => {
           </li>
           <li
             className={`px-4 text-white my-4 ${
-              currentTabChecker("/Barman-s-Portfolio/works") ? "opacity-100" : ""
+              currentTabChecker("/Barman-s-Portfolio/works")
+                ? "opacity-100"
+                : ""
             } opacity-70 hover:opacity-100  transition-opacity duration-200`}
             style={{ fontWeight: "400", fontSize: "25px" }}
             onClick={modalToggle}
@@ -40,7 +44,9 @@ const MobileNavbar = ({ currentTabChecker, setIsOpen, isOpen }) => {
           </li>
           <li
             className={`px-4 text-white my-4 ${
-              currentTabChecker("/Barman-s-Portfolio/about") ? "opacity-100" : ""
+              currentTabChecker("/Barman-s-Portfolio/about")
+                ? "opacity-100"
+                : ""
             } opacity-70 hover:opacity-100  transition-opacity duration-200`}
             style={{ fontWeight: "400", fontSize: "25px" }}
             onClick={modalToggle}
@@ -49,25 +55,20 @@ const MobileNavbar = ({ currentTabChecker, setIsOpen, isOpen }) => {
               <span style={{ color: "#c778dd" }}>#</span>about-me
             </a>
           </li>
-          <li
-            className={`px-4 text-white my-4 ${
-              currentTabChecker("/Barman-s-Portfolio/contact") ? "opacity-100" : ""
-            } opacity-70 hover:opacity-100  transition-opacity duration-200`}
-            style={{ fontWeight: "400", fontSize: "25px" }}
-            onClick={modalToggle}
-          >
-            <a href="/Barman-s-Portfolio/contact">
-              <span style={{ color: "#c778dd" }}>#</span>contact
-            </a>
-          </li>
         </ul>
         <div
           className="logos flex flex-row place-content-center"
           style={{ height: "10%", marginBottom: "30%" }}
         >
-          <img src={Github} className="mx-3" style={{ height: "60px" }} />
-          <img src={Github} className="mx-3" style={{ height: "60px" }} />
-          <img src={Github} className="mx-3" style={{ height: "60px" }} />
+          <a href="https://github.com/barman-ayush/">
+            <img src={Github} className="mx-3" style={{ height: "60px" }} />
+          </a>
+          <a href="https://discord.gg/vMuNx2JN">
+            <img src={Discord} className="mx-3" style={{ height: "60px" }} />
+          </a>
+          <a href="https://linkedin.com/in/ayush-barman-4856b3229/">
+            <img src={Linkedin} className="mx-3 mt-2" style={{ height: "40px" }} />
+          </a>
         </div>
       </div>
     </Fragment>

@@ -6,6 +6,7 @@ import { useLocation } from "react-router-dom";
 import MyLogo from "../Logo/Logo.component";
 import Hamburger from "../../assets/Navbar/Hamburger.svg";
 import MobileNavbar from "./MobileNavbar/MobileNavbar.component";
+import cross from "../../assets/Navbar/cross.svg"
 
 const Navbar = () => {
   const location = useLocation();
@@ -25,7 +26,7 @@ const Navbar = () => {
         <SideLine />
         <MyLogo />
         <div className="mobile-hamburger-menu" onClick={modalOpener}>
-          <img src={Hamburger} />
+          {isOpen ? <img src={cross} /> : <img src={Hamburger} />}
         </div>
         {/* Mobile Navbar */}
         {isOpen ? <MobileNavbar currentTabChecker={isActive} setIsOpen={setIsOpen} isOpen={isOpen} /> : <></>}
@@ -57,15 +58,6 @@ const Navbar = () => {
             >
               <a href="/Barman-s-Portfolio/about">
                 <span style={{ color: "#c778dd" }}>#</span>about-me
-              </a>
-            </li>
-            <li
-              className={`px-4 text-white ${
-                isActive("/Barman-s-Portfolio/contact") ? "opacity-100" : ""
-              } opacity-70 hover:opacity-100  transition-opacity duration-200`}
-            >
-              <a href="/Barman-s-Portfolio/contact">
-                <span style={{ color: "#c778dd" }}>#</span>contact
               </a>
             </li>
           </ul>

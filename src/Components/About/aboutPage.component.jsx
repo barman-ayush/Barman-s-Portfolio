@@ -22,7 +22,6 @@ const AboutPage = () => {
         <PageTemplate heading={"about-me"} subHeading={"Who am i ?"} />
         <About/>
         <Section component={Skill} view={false} heading={"skills"} Flexdirection={"row"} />
-        <Section component={Skill} view={false} heading={"skills"} Flexdirection={"row"} />
         
       </div>
       <Footer />

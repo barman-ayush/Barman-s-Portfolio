@@ -24,7 +24,7 @@ const Hero = () => {
           <div className="small-text py-3 ">
             He crafts responsive websites where technologies meet creativity
           </div>
-          <BTN text={"Contact Me"} link={"/"} />
+          <BTN text={"Contact Me"} link={"mailto:barmanayush2980@gmail.com"} />
         </div>
         <div className="hero-image-container relative">
           <img

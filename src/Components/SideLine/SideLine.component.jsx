@@ -2,6 +2,8 @@ import { Fragment } from "react";
 import { motion } from "framer-motion"; // Import Framer Motion
 import Line from "../../assets/Navbar/SideLine.svg";
 import GitHub from "../../assets/Navbar/Github.svg";
+import Discord from "../../assets/about/Discord.svg";
+import Linkedin from "../../assets/Navbar/linkedin.svg"
 import "./SideLine.styles.css";
 
 const SideLine = () => {
@@ -31,24 +33,39 @@ const SideLine = () => {
         />
 
         {/* GitHub icons with motion */}
-        <motion.img
-        className="cursor-pointer"
-        src={GitHub}
-        style={{ height: "35px" }}
-        initial="initial"
-        animate="animate"
-        variants={iconAnimation}
-        transition={{ duration: 0.5, delay: 1 }} // Delay for icon appearance
-        />
-        <motion.img
-          className="cursor-pointer"
-          src={GitHub}
-          style={{ height: "35px" }}
-          initial="initial"
-          animate="animate"
-          variants={iconAnimation}
-          transition={{ duration: 0.5, delay: 1.2 }} // Staggering delay
+        <a href="https://github.com/barman-ayush">
+          <motion.img
+            className="cursor-pointer"
+            src={GitHub}
+            style={{ height: "35px" }}
+            initial="initial"
+            animate="animate"
+            variants={iconAnimation}
+            transition={{ duration: 0.5, delay: 1 }} // Delay for icon appearance
           />
+        </a>
+        <a href="https://discord.gg/vMuNx2JN">
+          <motion.img
+            className="cursor-pointer"
+            src={Discord}
+            style={{ height: "35px" }}
+            initial="initial"
+            animate="animate"
+            variants={iconAnimation}
+            transition={{ duration: 0.5, delay: 1.2 }} // Staggering delay
+          />
+        </a>
+        <a href="https://linkedin.com/in/ayush-barman-4856b3229/">
+          <motion.img
+            className="cursor-pointer ml-2 mt-1"
+            src={Linkedin}
+            style={{ height: "22px" }}
+            initial="initial"
+            animate="animate"
+            variants={iconAnimation}
+            transition={{ duration: 0.5, delay: 1.2 }} // Staggering delay
+          />
+        </a>
       </section>
     </Fragment>
   );

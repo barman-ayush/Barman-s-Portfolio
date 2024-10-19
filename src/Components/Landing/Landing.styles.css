@@ -1,0 +1,6 @@
+@media(max-width : 700px){
+    .top-box-hero{
+        margin-top:  50px !important;
+        margin-left: 20px;
+    }
+}

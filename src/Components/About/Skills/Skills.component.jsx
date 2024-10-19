@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useEffect , useState } from "react";
 // import SkillCard from "../../Cards/SkillCards.component";
 import SkillCard from "../../Cards/SkillCards.component";
 

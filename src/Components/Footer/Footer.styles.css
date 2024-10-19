@@ -15,3 +15,7 @@
 .email-footer:hover{
     cursor: pointer;
 }
+
+.email-footer{
+    padding-left: 15px;
+}
