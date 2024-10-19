@@ -29,7 +29,7 @@ const Footer = () => {
               </a>
             </div>
             <div className="left-footer-body text-white my-4 mx-4">
-              Web and Andriod Developer based in India.
+              Web Developer based in India.
             </div>
           </div>
           <div className="right-footer-cont text-white " style={{marginBottom : "10%"}}>

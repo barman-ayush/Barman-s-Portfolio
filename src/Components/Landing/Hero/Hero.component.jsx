@@ -17,8 +17,6 @@ const Hero = () => {
         >
           <div className="hero-title py-3">
             Ayush is a <span className="custom-text px-2">Full stack Web</span>
-            and
-            <span className="custom-text px-2">Android</span>
             Developer.
           </div>
           <div className="small-text py-3 ">
