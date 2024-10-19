@@ -5,16 +5,16 @@ import dots from "../../../assets/Hero/Dots.svg";
 import Maze from "../../../assets/Hero/Maze.svg";
 import BTN from "../../Button/Button.component";
 import Rect from "../../../assets/Hero/Rect.svg";
+import FadeIn from "../../../Animation/fadein.component";
 
 const Hero = () => {
   return (
     <Fragment>
       <section
-        className="hero-cont flex flex-row justify-between items-center flex-wrap" style={{gap : "32px"}}
+        className="hero-cont flex flex-row justify-between items-center flex-wrap"
+        style={{ gap: "32px" }}
       >
-        <div
-          className="hero-written flex flex-col text-white"
-        >
+        <div className="hero-written flex flex-col text-white">
           <div className="hero-title py-3">
             Ayush is a <span className="custom-text px-2">Full stack Web</span>
             Developer.
@@ -31,12 +31,16 @@ const Hero = () => {
             width={500}
             style={{ borderBottom: "2px #c778dd solid" }}
           />
-          <img
-            src={dots}
-            className="absolute right-5 pl-2 bottom-0 z-20"
-            style={{ paddingBottom: "12%", paddingRight: "6%" }}
-          />
-          <img src={Maze} className="absolute top-4 left-4 z-0" />
+          <FadeIn zIndex={"20"}>
+            <img
+              src={dots}
+              className="absolute right-5 pl-2 bottom-0 z-20"
+              style={{ paddingBottom: "12%", paddingRight: "6%" }}
+            />
+          </FadeIn>
+          <FadeIn>
+            <img src={Maze} className="absolute top-4 left-4 z-0" />
+          </FadeIn>
           <div
             className="flex flex-row jsutify-center items-center open-for-work text-white py-3 border-white border-solid border-2 relative z-30 text-center"
             style={{ width: "60%", top: "-2px", margin: "0 20%" }}
