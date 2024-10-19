@@ -1,7 +1,5 @@
 import { Fragment } from "react";
-import TopComma from "../../../assets/Quote/TopComma.svg";
 import "./Quote.styles.css"
-import rect26 from "../../../assets/Quote/Rectangle-26.svg";
 
 const Quote = () => {
     // Name of Author 

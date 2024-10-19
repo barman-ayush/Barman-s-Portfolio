@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import Contact from "../../Cards/Contact-card.component";
+import Contact from "../../Cards/Contact-card.component.jsx";
 
 const contact = () => {
   return (

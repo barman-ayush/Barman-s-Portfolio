@@ -1,9 +1,9 @@
 import { Fragment } from "react";
-import SkillCard from "../../Cards/SkillCards.component";
+import SkillCard from "../../Cards/SkillCards.component.jsx";
 import "./Skill.styles.css";
 import rect1 from "../../../assets/skills/rect-1.svg";
 import Frame1 from "../../../assets/skills/Frame 27.svg";
-import FadeIn from "../../../Animation/fadein.component";
+import FadeIn from "../../../Animation/fadein.component.jsx";
 
 const Skills = () => {
   return (

@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import BTN from "../Button/Button.component";
+import BTN from "../Button/Button.component.jsx";
 
 const ProjectCard = ({ TechStack, heading, subheading, image , LiveLink , Github }) => {
   console.log(LiveLink)
