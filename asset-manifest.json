@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Barman-s-Portfolio/static/css/main.e45b3275.css",
-    "main.js": "/Barman-s-Portfolio/static/js/main.247b8541.js",
+    "main.css": "/Barman-s-Portfolio/static/css/main.1d6d89b4.css",
+    "main.js": "/Barman-s-Portfolio/static/js/main.1caebc45.js",
     "static/js/453.844b12ec.chunk.js": "/Barman-s-Portfolio/static/js/453.844b12ec.chunk.js",
     "static/media/concetto.png": "/Barman-s-Portfolio/static/media/concetto.a94b4400562d37f0227d.png",
     "static/media/getGeeks.png": "/Barman-s-Portfolio/static/media/getGeeks.e7c6a101d0ca08240281.png",
@@ -15,21 +15,21 @@
     "static/media/Maze.svg": "/Barman-s-Portfolio/static/media/Maze.c3404a223f6c35678862f9529e8e67ce.svg",
     "static/media/Github.svg": "/Barman-s-Portfolio/static/media/Github.8adab485ea6dc5380696d70cdcd5ec4f.svg",
     "static/media/Dots.svg": "/Barman-s-Portfolio/static/media/Dots.6e33fd923b2a31d9872d96e676985fdd.svg",
+    "static/media/linkedin.svg": "/Barman-s-Portfolio/static/media/linkedin.c4daf6964d985d0ec99da27e22cf105a.svg",
     "index.html": "/Barman-s-Portfolio/index.html",
     "static/media/Cigar.svg": "/Barman-s-Portfolio/static/media/Cigar.b3a3c091f0f91e07baec54ffb47cfb09.svg",
-    "static/media/TopComma.svg": "/Barman-s-Portfolio/static/media/TopComma.a76fc53a57df8a2f038f4e756fae26fa.svg",
     "static/media/Email.svg": "/Barman-s-Portfolio/static/media/Email.3bd9bfdf21e1e81839055a78f4f586de.svg",
+    "static/media/cross.svg": "/Barman-s-Portfolio/static/media/cross.4359e5a83abcec443d429aaad14dba9c.svg",
     "static/media/Logo.svg": "/Barman-s-Portfolio/static/media/Logo.c1840f06295c0a2c8a5fcf0eec2b7eb5.svg",
     "static/media/SideLine.svg": "/Barman-s-Portfolio/static/media/SideLine.73e1f5bc4d331f4b59d106d130e65520.svg",
     "static/media/Hamburger.svg": "/Barman-s-Portfolio/static/media/Hamburger.8cd319a00f8e003ee867e7a7018aa10f.svg",
     "static/media/Rect.svg": "/Barman-s-Portfolio/static/media/Rect.8af3792ba1f4764dd1b0cfacb75f20f6.svg",
-    "static/media/Rectangle-26.svg": "/Barman-s-Portfolio/static/media/Rectangle-26.a105acf0125f3a20e6ab7082932daced.svg",
-    "main.e45b3275.css.map": "/Barman-s-Portfolio/static/css/main.e45b3275.css.map",
-    "main.247b8541.js.map": "/Barman-s-Portfolio/static/js/main.247b8541.js.map",
+    "main.1d6d89b4.css.map": "/Barman-s-Portfolio/static/css/main.1d6d89b4.css.map",
+    "main.1caebc45.js.map": "/Barman-s-Portfolio/static/js/main.1caebc45.js.map",
     "453.844b12ec.chunk.js.map": "/Barman-s-Portfolio/static/js/453.844b12ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e45b3275.css",
-    "static/js/main.247b8541.js"
+    "static/css/main.1d6d89b4.css",
+    "static/js/main.1caebc45.js"
   ]
 }
