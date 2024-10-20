@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import "./Button.styles.css";
+import "./Button.css";
 
 const BTN = ({link , text}) => {
   return (

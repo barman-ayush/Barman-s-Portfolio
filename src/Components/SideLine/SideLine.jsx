@@ -4,7 +4,7 @@ import Line from "../../assets/Navbar/SideLine.svg";
 import GitHub from "../../assets/Navbar/Github.svg";
 import Discord from "../../assets/about/Discord.svg";
 import Linkedin from "../../assets/Navbar/linkedin.svg"
-import "./SideLine.styles.css";
+import "./SideLine.css";
 
 const SideLine = () => {
   // Animation variants

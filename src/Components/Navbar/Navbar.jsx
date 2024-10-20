@@ -1,7 +1,7 @@
 import { Fragment, useEffect, useState } from "react";
 import Logo from "../../assets/Navbar/Logo.svg";
 import SideLine from "../SideLine/SideLine.jsx";
-import "./Navbar.styles.css";
+import "./Navbar.css";
 import { useLocation } from "react-router-dom";
 import MyLogo from "../Logo/Logo.jsx";
 import Hamburger from "../../assets/Navbar/Hamburger.svg";

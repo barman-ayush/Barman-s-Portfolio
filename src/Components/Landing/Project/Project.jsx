@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import "./Project.styles.css";
+import "./Project.css";
 import getGeeks from "../../../assets/Project/getGeeks.png"
 import cerebroScan from "../../../assets/Project/cerebroScan.jpeg"
 import concetto from "../../../assets/Project/concetto.png"

@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import Logo from "../../assets/Navbar/Logo.svg";
-import "./Logo.styles.css";
+import "./Logo.css";
 
 const MyLogo = () => {
   return (

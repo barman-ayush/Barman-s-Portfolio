@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import ProjectCard from "../../Cards/ProjectCard.jsx";
-import "./decent.styles.css"
+import "./decent.css"
 import JsonData from "../../../json/Project/decent.json"
 import getGeeks from "../../../assets/Project/getGeeks.png"
 import cerebroScan from "../../../assets/Project/cerebroScan.jpeg"

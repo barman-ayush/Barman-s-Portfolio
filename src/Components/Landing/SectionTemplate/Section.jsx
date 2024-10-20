@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import "./Section.styles.css"
+import "./Section.css"
 
 const Section = ({component : Component , heading , view , link , Flexdirection, isBtn}) => {
   return (

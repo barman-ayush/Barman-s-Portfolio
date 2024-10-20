@@ -7,7 +7,7 @@ import Skills from "./Skills/Skills.jsx";
 import about from "./About/About.jsx";
 import contact from "./contact/contact.jsx";
 import Footer from "../Footer/Footer.jsx";
-import "./Landing.styles.css"
+import "./Landing.css"
 
 const LandingPage = () => {
   return (

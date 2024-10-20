@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import "./Footer.styles.css";
+import "./Footer.css";
 import MyLogo from "../Logo/Logo.jsx";
 import discord from "../../assets/about/Discord.svg";
 import Linkedin from "../../assets/Navbar/linkedin.svg";

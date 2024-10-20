@@ -1,11 +1,11 @@
 import { Fragment } from "react";
-import "./Hero.styles.css";
+import "./Hero.css";
 import Ayush from "../../../assets/Hero/my-image.svg";
 import dots from "../../../assets/Hero/Dots.svg";
 import Maze from "../../../assets/Hero/Maze.svg";
 import BTN from "../../Button/Button.jsx";
 import Rect from "../../../assets/Hero/Rect.svg";
-import FadeIn from "../../../Animation/fadein.component.jsx";
+import FadeIn from "../../../Animation/fadein.jsx";
 
 const Hero = () => {
   return (

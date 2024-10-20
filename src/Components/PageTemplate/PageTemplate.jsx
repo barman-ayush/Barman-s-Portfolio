@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import { motion } from "framer-motion";
-import "./PageTemplate.styles.css";
+import "./PageTemplate.css";
 
 const PageTemplate = ({ heading, subHeading }) => {
   return (

@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import "./Quote.styles.css"
+import "./Quote.css"
 
 const Quote = () => {
     // Name of Author 
