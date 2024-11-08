@@ -20,38 +20,38 @@ const MobileNavbar = ({ currentTabChecker, setIsOpen, isOpen }) => {
         <ul className="tab-links-mobile">
           <li
             className={`px-4 text-white my-4 opacity-70  ${
-              currentTabChecker("/Barman-s-Portfolio/") ? "opacity-100" : ""
+              currentTabChecker("/") ? "opacity-100" : ""
             }  hover:opacity-100  transition-opacity duration-200 active`}
             style={{ fontWeight: "400", fontSize: "25px" }}
             onClick={modalToggle}
           >
-            <a href="/Barman-s-Portfolio/">
+            <a href="/">
               <span style={{ color: "#c778dd" }}>#</span>home
             </a>
           </li>
           <li
             className={`px-4 text-white my-4 ${
-              currentTabChecker("/Barman-s-Portfolio/works")
+              currentTabChecker("/works")
                 ? "opacity-100"
                 : ""
             } opacity-70 hover:opacity-100  transition-opacity duration-200`}
             style={{ fontWeight: "400", fontSize: "25px" }}
             onClick={modalToggle}
           >
-            <a href="/Barman-s-Portfolio/works">
+            <a href="/works">
               <span style={{ color: "#c778dd" }}>#</span>works
             </a>
           </li>
           <li
             className={`px-4 text-white my-4 ${
-              currentTabChecker("/Barman-s-Portfolio/about")
+              currentTabChecker("/about")
                 ? "opacity-100"
                 : ""
             } opacity-70 hover:opacity-100  transition-opacity duration-200`}
             style={{ fontWeight: "400", fontSize: "25px" }}
             onClick={modalToggle}
           >
-            <a href="/Barman-s-Portfolio/about">
+            <a href="/about">
               <span style={{ color: "#c778dd" }}>#</span>about-me
             </a>
           </li>
