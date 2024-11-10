@@ -1,15 +1,16 @@
 import { Fragment } from "react";
 import BTN from "../Button/Button.jsx";
+import "./ProjectCard.css"
 
 const ProjectCard = ({ TechStack, heading, subheading, image , LiveLink , Github }) => {
   console.log(LiveLink)
   return (
     <Fragment>
       <div
-        className="parent-cont text-white mx-1 my-4"
-        style={{ border: "1px solid white" }}
+        className="parent-cont text-white"
+        style={{ border: "1px solid white"}}
       >
-        <img src={image} style={{ maxWidth: "350px" }} />
+        <img src={image} style={{width : "100%"}} />
         <ul
           className="tech-stack flex flex-row justify-start mb-3"
           style={{
@@ -18,7 +19,7 @@ const ProjectCard = ({ TechStack, heading, subheading, image , LiveLink , Github
           }}
         >
           {TechStack.map((e) => {
-            return <li className="mx-2 my-2">{e}</li>;
+            return <li className="mx-1 my-2">{e}</li>;
           })}
         </ul>
         <div className="project-details mx-3 my-4">

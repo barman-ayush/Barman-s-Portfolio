@@ -20,8 +20,8 @@ const Navbar = () => {
     // add mobile view
     <Fragment>
       <section
-        className="navbar-container flex flex-row justify-around items-center py-5 sticky top-0 z-40"
-        style={{ backgroundColor: "#282c33", height: "10%" }}
+        className="navbar-container relative  flex flex-row w-full  justify-around items-center py-5 sticky top-0 z-40"
+        style={{ backgroundColor: "#282c33", height: "10%"}}
       >
         <SideLine />
         <MyLogo />

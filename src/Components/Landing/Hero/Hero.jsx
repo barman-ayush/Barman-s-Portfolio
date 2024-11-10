@@ -27,14 +27,13 @@ const Hero = () => {
         <div className="hero-image-container relative">
           <img
             src={Ayush}
-            className="relative z-10"
-            width={500}
+            className="relative z-10 ayush-img"
             style={{ borderBottom: "2px #c778dd solid" }}
           />
           <FadeIn zIndex={"20"}>
             <img
               src={dots}
-              className="absolute right-5 pl-2 bottom-0 z-20"
+              className="absolute right-5 pl-2 z-20 dots"
               style={{ paddingBottom: "12%", paddingRight: "6%" }}
             />
           </FadeIn>
@@ -43,7 +42,7 @@ const Hero = () => {
           </FadeIn>
           <div
             className="flex flex-row jsutify-center items-center open-for-work text-white py-3 border-white border-solid border-2 relative z-30 text-center"
-            style={{ width: "60%", top: "-2px", margin: "0 20%" }}
+            style={{ width: "60%", top: "-2px", margin: "0 19%" }}
           >
             <img className="px-2" src={Rect} alt="" />
             Open for new oppurtunity

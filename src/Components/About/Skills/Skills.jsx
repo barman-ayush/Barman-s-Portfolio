@@ -9,17 +9,17 @@ const Skills = () => {
         style={{ marginBottom: "10%", width: "100%" }}
       >
         <div
-          className="right-container flex  items-center flex-wrap"
+          className="right-container flex flex-wrap"
           style={{ width: "100%" }}
         >
           <SkillCard
             heading={"Languages"}
             items={["JavaScript", "C++", "Python"]}
-            divWidth={"30%"}
+            divWidth={"35%"}
             divHeight={"50%"}
           />
           <SkillCard
-            divWidth={"30%"}
+            divWidth={"35%"}
             divHeight={"50%"}
             heading={"Databases"}
             items={["MongoDB", "PostgreSQL"]}
@@ -41,7 +41,7 @@ const Skills = () => {
               "TailwindCSS",
               "FramerMotion",
             ]}
-            divWidth={"30%"}
+            divWidth={"40%"}
             divHeight={"50%"}
           />
         </div>

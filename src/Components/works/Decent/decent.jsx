@@ -17,7 +17,7 @@ const Decent = () => {
   return (
     <Fragment>
       <div
-        className="flex flex-wrap mx-2"
+        className="flex flex-wrap"
         style={{ marginBottom: "10%", width: "100%" }}
       >
         {JsonData.map( (e , index) => {

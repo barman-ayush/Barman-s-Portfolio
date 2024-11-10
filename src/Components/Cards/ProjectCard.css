@@ -1,0 +1,12 @@
+.parent-cont{
+    width:  40%;
+    margin: 5%;
+}
+
+@media(max-width : 700px){
+    .parent-cont{
+        width:  90%;
+        margin: 5% 5%;
+    }
+    
+}
