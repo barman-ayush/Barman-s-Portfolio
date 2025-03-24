@@ -1,5 +1,21 @@
 [
     {
+        "TechStack" : ["NextJs" , "Meta-Llama", "PineCone" , "TypeScript" , "PostgreSQL" , "Redis" , "Prisma"] ,
+        "heading" : "Arcana AI",
+        "subheading" : "A chatbot that can imitate the characters you want to. They behave the way they do in real life",
+        "img" : "arcana",
+        "LiveLink" : "https://imitate-ai.vercel.app/",
+        "Github" : "https://github.com/barman-ayush/arcana.ai"
+    },
+    {
+        "TechStack" : ["NextJs" , "TypeScript" , "PostgreSQL" , "Redis" , "Prisma"] ,
+        "heading" : "JabraFan",
+        "subheading" : "A Live IPL Betting Platform in Production, Trusted by many Users.",
+        "img" : "jabrafan",
+        "LiveLink" : "https://www.jabrafans.com/",
+        "Github" : "https://github.com/barman-ayush/JabraFan"
+    },
+    {
         "TechStack" : ["EJS" , "Node" , "Express" , "MongoDB"] ,
         "heading" : "getGeeks",
         "subheading" : "A collaborative website for competitive programmers",

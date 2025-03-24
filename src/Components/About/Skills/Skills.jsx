@@ -1,7 +1,10 @@
 import { Fragment, useEffect , useState } from "react";
 import SkillCard from "../../Cards/SkillCards.jsx";
+import SkillData from "../../../json/Skills/Skills.json"
 
 const Skills = () => {
+  const {Languages , Frameworks , Others , Databases}  = SkillData
+
   return (
     <Fragment>
       <div
@@ -14,7 +17,7 @@ const Skills = () => {
         >
           <SkillCard
             heading={"Languages"}
-            items={["JavaScript", "C++", "Python"]}
+            items={Languages}
             divWidth={"35%"}
             divHeight={"50%"}
           />
@@ -22,25 +25,17 @@ const Skills = () => {
             divWidth={"35%"}
             divHeight={"50%"}
             heading={"Databases"}
-            items={["MongoDB", "PostgreSQL"]}
+            items={Databases}
           />
           <SkillCard
             heading={"Frameworks"}
-            items={["React", "Express", "Flask"]}
+            items={Frameworks}
             divWidth={"30%"}
             divHeight={"50%"}
           />
           <SkillCard
             heading={"Other"}
-            items={[
-              "HTML",
-              "CSS",
-              "Pug",
-              "EJS",
-              "Bootstrap",
-              "TailwindCSS",
-              "FramerMotion",
-            ]}
+            items={Others}
             divWidth={"40%"}
             divHeight={"50%"}
           />

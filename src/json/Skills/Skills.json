@@ -1,0 +1,16 @@
+{
+    "Others" : [
+        "TailwindCSS",
+        "FramerMotion",
+        "ShadCN",
+        "Bootstrap",
+        "CSS",
+        "Pug",
+        "EJS",
+        "HTML"
+      ],
+      "Frameworks" : ["Next.Js" , "React", "Express", "Flask" , "Django"],
+      "Languages" : ["JavaScript/TypeScript", "C++", "Python"],
+      "Databases" : ["MongoDB", "PostgreSQL"]
+
+}

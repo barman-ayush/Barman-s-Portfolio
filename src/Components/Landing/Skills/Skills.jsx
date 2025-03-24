@@ -4,8 +4,10 @@ import "./Skill.css";
 import rect1 from "../../../assets/skills/rect-1.svg";
 import Frame1 from "../../../assets/skills/Frame 27.svg";
 import FadeIn from "../../../Animation/fadein.jsx";
+import SkillData from "../../../json/Skills/Skills.json"
 
 const Skills = () => {
+  const {Languages , Frameworks , Others , Databases}  = SkillData
   return (
     <Fragment>
       <div
@@ -35,24 +37,16 @@ const Skills = () => {
         <div className="right-container flex justify-center items-center flex-wrap">
           <SkillCard
             heading={"Languages"}
-            items={["JavaScript", "C++", "Python"]}
+            items={Languages}
           />
-          <SkillCard heading={"Databases"} items={["MongoDB", "PostgreSQL"]} />
+          <SkillCard heading={"Databases"} items={Databases} />
           <SkillCard
             heading={"Frameworks"}
-            items={["React", "Express", "Flask"]}
+            items={Frameworks}
           />
           <SkillCard
             heading={"Other"}
-            items={[
-              "HTML",
-              "CSS",
-              "Pug",
-              "EJS",
-              "Bootstrap",
-              "TailwindCSS",
-              "FramerMotion",
-            ]}
+            items={Others}
           />
         </div>
       </div>

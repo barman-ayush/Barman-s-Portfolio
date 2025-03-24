@@ -3,13 +3,16 @@ import "./Project.css";
 import getGeeks from "../../../assets/Project/getGeeks.png"
 import cerebroScan from "../../../assets/Project/cerebroScan.jpeg"
 import concetto from "../../../assets/Project/concetto.png"
+import jabrafan from "../../../assets/Project/jabrafan.png"
+import arcana from "../../../assets/Project/arcana.png"
 import JsonData from "../../../json/Project/decent.json"
 import ProjectCard from "../../Cards/ProjectCard.jsx";
 
-const imageMap = {
-  getGeeks , cerebroScan , concetto
-}
 
+
+const imageMap = {
+  getGeeks , cerebroScan , concetto ,jabrafan ,arcana
+}
 const ProjectSection = () => {
   return (
     <Fragment>

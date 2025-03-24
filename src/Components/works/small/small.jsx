@@ -15,7 +15,6 @@ const Small = () => {
         {JsonData.map( (e , index) => {
           return <ProjectCard {...e}/>
         } )}
-        {/* <ProjectCard image={getGeeks} TechStack={["EJS" , "Node" , "Express"]} heading={"getGeeks"} subheading={"A web app for competitive programmers"} /> */}
       </div>
     </Fragment>
   );
